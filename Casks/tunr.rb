@@ -3,7 +3,7 @@ cask "tunr" do
   name "tunr"
   desc "local → public tunnel tool for Vibecoders"
   homepage "https://tunr.sh"
-  version "0.2.5"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "tunr" do
     on_intel do
       url "https://github.com/ahmetvural79/tunr/releases/download/v#{version}/tunr_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/ahmetvural79/tunr"
-      sha256 "721266bf17e2a72f4de4be9539aeb74798e51dae4458ec42d381e7203381dadd"
+      sha256 "e5fdb8cd3664e757cd7dfab3d7ae048f355c9e20a4690472380e00c2ae130d5c"
     end
     on_arm do
       url "https://github.com/ahmetvural79/tunr/releases/download/v#{version}/tunr_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/ahmetvural79/tunr"
-      sha256 "21268d7475df6fcae8312ea76f89c5507aea8e3c31692cdad192beff7c36c166"
+      sha256 "782568e57f696b3cd9b97651438d0616eaa5bff2e1a0596a81c3cacc947a81ad"
     end
   end
 
@@ -28,12 +28,12 @@ cask "tunr" do
     on_intel do
       url "https://github.com/ahmetvural79/tunr/releases/download/v#{version}/tunr_#{version}_linux_amd64.tar.gz",
         verified: "github.com/ahmetvural79/tunr"
-      sha256 "eb457abaac9450a468cb865728fd3220e693eb88d915cdfa4f73ff15aeb6e756"
+      sha256 "ddc049836694f1ba48da1c6ab77f2cd8d03ac57f5fc6628df14ec3118b31c59b"
     end
     on_arm do
       url "https://github.com/ahmetvural79/tunr/releases/download/v#{version}/tunr_#{version}_linux_arm64.tar.gz",
         verified: "github.com/ahmetvural79/tunr"
-      sha256 "0dd54fb90ef7e5b22d09521157614331133f51d75f57e28daf665afaed58b494"
+      sha256 "74dee80847abbc36aba9aef8ae9e57fa8a37130faa711f1123d3a8ee118944c5"
     end
   end
 
