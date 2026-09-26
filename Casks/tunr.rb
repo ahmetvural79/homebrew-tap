@@ -3,7 +3,7 @@ cask "tunr" do
   name "tunr"
   desc "local → public tunnel tool for Vibecoders"
   homepage "https://tunr.sh"
-  version "0.6.0"
+  version "0.6.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,27 +13,27 @@ cask "tunr" do
 
   on_macos do
     on_intel do
-      url "https://github.com/ahmetvural79/tunr/releases/download/v#{version}/tunr_#{version}_darwin_amd64.tar.gz",
-        verified: "github.com/ahmetvural79/tunr"
-      sha256 "c2b4e96a8843c5c8951bccb05a7268bc48b9422cb3d06aa9bde37d9ed2082bf6"
+      url "https://github.com/tunr-dev/tunr/releases/download/v#{version}/tunr_#{version}_darwin_amd64.tar.gz",
+        verified: "github.com/tunr-dev/tunr"
+      sha256 "2e96ada792af8fb64aef1e647a0cfee93ed73c014aa2af28ba78c90af75e6f72"
     end
     on_arm do
-      url "https://github.com/ahmetvural79/tunr/releases/download/v#{version}/tunr_#{version}_darwin_arm64.tar.gz",
-        verified: "github.com/ahmetvural79/tunr"
-      sha256 "43ea14abc39959c735715e061df1aa0eb56527867f0493be3fc89212ef5392ef"
+      url "https://github.com/tunr-dev/tunr/releases/download/v#{version}/tunr_#{version}_darwin_arm64.tar.gz",
+        verified: "github.com/tunr-dev/tunr"
+      sha256 "453fd2362e51fa60b3942d6b5b6f652b77e504d131fb016b55fc5ce36aa0dfe9"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ahmetvural79/tunr/releases/download/v#{version}/tunr_#{version}_linux_amd64.tar.gz",
-        verified: "github.com/ahmetvural79/tunr"
-      sha256 "d9981beb356903f8310551934d782f8cd9a2d4f62c86a5ed93776562fd7739d2"
+      url "https://github.com/tunr-dev/tunr/releases/download/v#{version}/tunr_#{version}_linux_amd64.tar.gz",
+        verified: "github.com/tunr-dev/tunr"
+      sha256 "2545b57cdcd4b45112a3a6cc8967ee59eb24c8ceb2da4a547d39f50c5745fa30"
     end
     on_arm do
-      url "https://github.com/ahmetvural79/tunr/releases/download/v#{version}/tunr_#{version}_linux_arm64.tar.gz",
-        verified: "github.com/ahmetvural79/tunr"
-      sha256 "682452dba55b96dc91face4790d644a9b70e8fe111569364b2ca5ad97d05c514"
+      url "https://github.com/tunr-dev/tunr/releases/download/v#{version}/tunr_#{version}_linux_arm64.tar.gz",
+        verified: "github.com/tunr-dev/tunr"
+      sha256 "e9edbfd6999c3de56d28b00686880cf49cd6a7c70520c880be9caf8f98448a0f"
     end
   end
 
